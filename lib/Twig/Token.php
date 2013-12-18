@@ -17,6 +17,11 @@
  */
 class Twig_Token
 {
+    public static function doNotInstall()
+    {
+        throw new RuntimeException('Do not install this package as it has been deprecated.');
+    }
+    
     protected $value;
     protected $type;
     protected $lineno;
