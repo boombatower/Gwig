@@ -27,7 +27,7 @@
         }
     },
     "scripts": {
-        "pre-install-cmd": "Twig_Token::doNotInstall"
+        "pre-install-cmd": "false"
     },
     "extra": {
         "branch-alias": {
