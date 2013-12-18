@@ -1,5 +1,5 @@
 {
-    "name": "twig/twig",
+    "name": "boombatower/gwig",
     "type": "library",
     "description": "Twig, the flexible, fast, and secure template language for PHP",
     "keywords": ["templating"],
@@ -17,6 +17,9 @@
     ],
     "require": {
         "php": ">=5.2.4"
+    },
+    "provide": {
+        "twig/twig": "self.version"
     },
     "autoload": {
         "psr-0" : {
