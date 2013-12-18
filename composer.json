@@ -27,18 +27,18 @@
         }
     },
     "scripts": {
-        "pre-install-cmd": "false",
-        "post-install-cmd": "false",
-        "pre-update-cmd": "false",
-        "post-update-cmd": "false",
-        "pre-status-cmd": "false",
-        "post-status-cmd": "false",
-        "pre-package-install": "false",
-        "post-package-install": "false",
-        "pre-package-update": "false",
-        "post-package-update": "false",
-        "pre-package-uninstall": "false",
-        "post-package-uninstall": "false"
+        "pre-install-cmd": "caboom::boom",
+        "post-install-cmd": "caboom::boom",
+        "pre-update-cmd": "caboom::boom",
+        "post-update-cmd": "caboom::boom",
+        "pre-status-cmd": "caboom::boom",
+        "post-status-cmd": "caboom::boom",
+        "pre-package-install": "caboom::boom",
+        "post-package-install": "caboom::boom",
+        "pre-package-update": "caboom::boom",
+        "post-package-update": "caboom::boom",
+        "pre-package-uninstall": "caboom::boom",
+        "post-package-uninstall": "caboom::boom"
     },
     "extra": {
         "branch-alias": {
