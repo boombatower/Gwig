@@ -28,6 +28,7 @@
     },
     "scripts": {
         "pre-install-cmd": "false"
+        "pre-update-cmd": "false"
     },
     "extra": {
         "branch-alias": {
