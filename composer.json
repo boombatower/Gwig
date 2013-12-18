@@ -28,7 +28,17 @@
     },
     "scripts": {
         "pre-install-cmd": "false",
-        "pre-update-cmd": "false"
+        "post-install-cmd": "false",
+        "pre-update-cmd": "false",
+        "post-update-cmd": "false",
+        "pre-status-cmd": "false",
+        "post-status-cmd": "false",
+        "pre-package-install": "false",
+        "post-package-install": "false",
+        "pre-package-update": "false",
+        "post-package-update": "false",
+        "pre-package-uninstall": "false",
+        "post-package-uninstall": "false"
     },
     "extra": {
         "branch-alias": {
