@@ -27,7 +27,7 @@
         }
     },
     "scripts": {
-        "pre-install-cmd": "false"
+        "pre-install-cmd": "false",
         "pre-update-cmd": "false"
     },
     "extra": {
