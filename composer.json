@@ -26,6 +26,9 @@
             "Twig_" : "lib/"
         }
     },
+    "scripts": {
+        "pre-install-cmd": "DoNot::install"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.15-dev"
